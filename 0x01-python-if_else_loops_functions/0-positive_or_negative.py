@@ -7,5 +7,5 @@ if number > 0:
 	print(f'{number:d} is postive')
 elif number == 0:
 	print(f'{number:d} is zero')
-elif number < 0:
+elif number > 0:
 	print(f'{number:d} is negative')
