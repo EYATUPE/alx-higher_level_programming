@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-lst = range(100)
-print(["{:02d}".format(x) for x in lst])
+for s in range(0, 100):
+    if s == 99:
+        print(s)
+    else:
+        print("{:0>2d}".format(s), end=", ")
