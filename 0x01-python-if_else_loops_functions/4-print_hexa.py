@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    print("{} = {}".format(i, hex(i)))
+for s in range(0, 99):
+    print("{} = {}".format(s, hex(s)))
