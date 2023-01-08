@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-if __name__ == "__main__":
+if __name__ == '__main__':
     import sys
     num = len(sys.argv)
+
     if num == 1:
         print("{} arguments:".format(num - 1))
     elif num == 2:
@@ -9,4 +10,4 @@ if __name__ == "__main__":
     else:
         print("{} arguments:".format(num - 1))
     for a in range(1, num):
-        print("{}:{}".format(a, sys.argv[a]))
+        print("{}: {}".format(a, sys.argv[a]))
