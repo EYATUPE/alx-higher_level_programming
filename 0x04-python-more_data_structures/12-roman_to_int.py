@@ -9,6 +9,7 @@ def roman_to_int(roman_string):
     roman_string = roman_string.replace("IV", "IIII").replace("IX", "VIIII")
     roman_string = roman_string.replace("XL", "XXXX").replace("XC", "LXXXX")
     roman_string = roman_string.replace("CD", "CCCC").replace("CM", "DCCCC")
+
     for i in roman_string:
         number += translations[i]
     return number
