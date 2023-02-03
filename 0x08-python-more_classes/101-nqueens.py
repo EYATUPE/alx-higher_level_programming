@@ -41,6 +41,7 @@ def get_solution(board):
                 break
     return (solution)
 
+
 def xout(board, row, col):
     """X out spots on a chessboard.
     All spots where non-attacking queens can no
