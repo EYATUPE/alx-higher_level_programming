@@ -1,1 +1,3 @@
-0x13. JavaScript - Objects, Scopes and Closures
+High Level Programming languages
+e.g
+Python
